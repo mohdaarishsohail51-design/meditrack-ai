@@ -3033,6 +3033,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_add
+drawable ic_arrow_back
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3176,6 +3178,8 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id actBloodGroup
+id actGender
 id actionDown
 id actionDownUp
 id actionUp
@@ -3229,6 +3233,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnGetStarted
+id btnSavePatient
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3317,9 +3322,20 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id escape
+id etAddress
+id etAllergies
+id etChronicConditions
+id etDateOfBirth
+id etEmail
+id etEmergencyName
+id etEmergencyPhone
+id etFullName
+id etNotes
+id etPhone
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fabAddPatient
 id fade
 id fill
 id fill_horizontal
@@ -3372,6 +3388,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layoutEmptyPatients
 id left
 id leftToRight
 id legacy
@@ -3487,6 +3504,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id patientListRoot
 id peekHeight
 id percent
 id pin
@@ -3499,6 +3517,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerPatients
 id report_drawn
 id reverseSawtooth
 id right
@@ -3603,6 +3622,8 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbarAddPatient
+id toolbarPatients
 id top
 id topPanel
 id touch_outside
@@ -3621,6 +3642,12 @@ id tvAppSymbol
 id tvDescription
 id tvSubtitle
 id tvTitle
+id txtAvatar
+id txtNoPatientsDescription
+id txtNoPatientsTitle
+id txtPatientName
+id txtPatientPhone
+id txtPatientsSubtitle
 id unchecked
 id uniform
 id unlabeled
@@ -3760,8 +3787,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_edit_patient
 layout activity_dashboard
 layout activity_main
+layout activity_patient_list
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3780,6 +3809,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_patient
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3869,6 +3899,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_patient
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -4012,12 +4043,17 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string no_patients_description
+string no_patients_title
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string patient_list_content_description
 string patients_card_description
+string patients_subtitle
+string patients_title
 string quick_actions_title
 string records_card_description
 string scan_card_description

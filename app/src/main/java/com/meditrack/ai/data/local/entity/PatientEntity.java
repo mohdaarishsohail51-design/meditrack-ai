@@ -76,38 +76,8 @@ public class PatientEntity {
     @ColumnInfo(name = "updated_at")
     private long updatedAt;
 
-    public PatientEntity(
-            @NonNull String fullName,
-            Long dateOfBirth,
-            @NonNull String gender,
-            @NonNull String bloodGroup,
-            @NonNull String phoneNumber,
-            @NonNull String emailAddress,
-            @NonNull String address,
-            @NonNull String emergencyContactName,
-            @NonNull String emergencyContactPhone,
-            @NonNull String allergies,
-            @NonNull String chronicConditions,
-            @NonNull String notes,
-            String profileImageUri,
-            long createdAt,
-            long updatedAt
-    ) {
-        this.fullName = fullName;
-        this.dateOfBirth = dateOfBirth;
-        this.gender = gender;
-        this.bloodGroup = bloodGroup;
-        this.phoneNumber = phoneNumber;
-        this.emailAddress = emailAddress;
-        this.address = address;
-        this.emergencyContactName = emergencyContactName;
-        this.emergencyContactPhone = emergencyContactPhone;
-        this.allergies = allergies;
-        this.chronicConditions = chronicConditions;
-        this.notes = notes;
-        this.profileImageUri = profileImageUri;
-        this.createdAt = createdAt;
-        this.updatedAt = updatedAt;
+    public PatientEntity() {
+        // Required empty constructor for Room
     }
 
     public long getPatientId() {

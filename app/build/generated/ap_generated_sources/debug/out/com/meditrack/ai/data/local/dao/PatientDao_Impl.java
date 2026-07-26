@@ -257,92 +257,107 @@ public final class PatientDao_Impl implements PatientDao {
         final List<PatientEntity> _result = new ArrayList<PatientEntity>();
         while (_stmt.step()) {
           final PatientEntity _item;
+          _item = new PatientEntity();
+          final long _tmpPatientId;
+          _tmpPatientId = _stmt.getLong(_columnIndexOfPatientId);
+          _item.setPatientId(_tmpPatientId);
           final String _tmpFullName;
           if (_stmt.isNull(_columnIndexOfFullName)) {
             _tmpFullName = null;
           } else {
             _tmpFullName = _stmt.getText(_columnIndexOfFullName);
           }
+          _item.setFullName(_tmpFullName);
           final Long _tmpDateOfBirth;
           if (_stmt.isNull(_columnIndexOfDateOfBirth)) {
             _tmpDateOfBirth = null;
           } else {
             _tmpDateOfBirth = _stmt.getLong(_columnIndexOfDateOfBirth);
           }
+          _item.setDateOfBirth(_tmpDateOfBirth);
           final String _tmpGender;
           if (_stmt.isNull(_columnIndexOfGender)) {
             _tmpGender = null;
           } else {
             _tmpGender = _stmt.getText(_columnIndexOfGender);
           }
+          _item.setGender(_tmpGender);
           final String _tmpBloodGroup;
           if (_stmt.isNull(_columnIndexOfBloodGroup)) {
             _tmpBloodGroup = null;
           } else {
             _tmpBloodGroup = _stmt.getText(_columnIndexOfBloodGroup);
           }
+          _item.setBloodGroup(_tmpBloodGroup);
           final String _tmpPhoneNumber;
           if (_stmt.isNull(_columnIndexOfPhoneNumber)) {
             _tmpPhoneNumber = null;
           } else {
             _tmpPhoneNumber = _stmt.getText(_columnIndexOfPhoneNumber);
           }
+          _item.setPhoneNumber(_tmpPhoneNumber);
           final String _tmpEmailAddress;
           if (_stmt.isNull(_columnIndexOfEmailAddress)) {
             _tmpEmailAddress = null;
           } else {
             _tmpEmailAddress = _stmt.getText(_columnIndexOfEmailAddress);
           }
+          _item.setEmailAddress(_tmpEmailAddress);
           final String _tmpAddress;
           if (_stmt.isNull(_columnIndexOfAddress)) {
             _tmpAddress = null;
           } else {
             _tmpAddress = _stmt.getText(_columnIndexOfAddress);
           }
+          _item.setAddress(_tmpAddress);
           final String _tmpEmergencyContactName;
           if (_stmt.isNull(_columnIndexOfEmergencyContactName)) {
             _tmpEmergencyContactName = null;
           } else {
             _tmpEmergencyContactName = _stmt.getText(_columnIndexOfEmergencyContactName);
           }
+          _item.setEmergencyContactName(_tmpEmergencyContactName);
           final String _tmpEmergencyContactPhone;
           if (_stmt.isNull(_columnIndexOfEmergencyContactPhone)) {
             _tmpEmergencyContactPhone = null;
           } else {
             _tmpEmergencyContactPhone = _stmt.getText(_columnIndexOfEmergencyContactPhone);
           }
+          _item.setEmergencyContactPhone(_tmpEmergencyContactPhone);
           final String _tmpAllergies;
           if (_stmt.isNull(_columnIndexOfAllergies)) {
             _tmpAllergies = null;
           } else {
             _tmpAllergies = _stmt.getText(_columnIndexOfAllergies);
           }
+          _item.setAllergies(_tmpAllergies);
           final String _tmpChronicConditions;
           if (_stmt.isNull(_columnIndexOfChronicConditions)) {
             _tmpChronicConditions = null;
           } else {
             _tmpChronicConditions = _stmt.getText(_columnIndexOfChronicConditions);
           }
+          _item.setChronicConditions(_tmpChronicConditions);
           final String _tmpNotes;
           if (_stmt.isNull(_columnIndexOfNotes)) {
             _tmpNotes = null;
           } else {
             _tmpNotes = _stmt.getText(_columnIndexOfNotes);
           }
+          _item.setNotes(_tmpNotes);
           final String _tmpProfileImageUri;
           if (_stmt.isNull(_columnIndexOfProfileImageUri)) {
             _tmpProfileImageUri = null;
           } else {
             _tmpProfileImageUri = _stmt.getText(_columnIndexOfProfileImageUri);
           }
+          _item.setProfileImageUri(_tmpProfileImageUri);
           final long _tmpCreatedAt;
           _tmpCreatedAt = _stmt.getLong(_columnIndexOfCreatedAt);
+          _item.setCreatedAt(_tmpCreatedAt);
           final long _tmpUpdatedAt;
           _tmpUpdatedAt = _stmt.getLong(_columnIndexOfUpdatedAt);
-          _item = new PatientEntity(_tmpFullName,_tmpDateOfBirth,_tmpGender,_tmpBloodGroup,_tmpPhoneNumber,_tmpEmailAddress,_tmpAddress,_tmpEmergencyContactName,_tmpEmergencyContactPhone,_tmpAllergies,_tmpChronicConditions,_tmpNotes,_tmpProfileImageUri,_tmpCreatedAt,_tmpUpdatedAt);
-          final long _tmpPatientId;
-          _tmpPatientId = _stmt.getLong(_columnIndexOfPatientId);
-          _item.setPatientId(_tmpPatientId);
+          _item.setUpdatedAt(_tmpUpdatedAt);
           _result.add(_item);
         }
         return _result;
@@ -378,92 +393,107 @@ public final class PatientDao_Impl implements PatientDao {
         final int _columnIndexOfUpdatedAt = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "updated_at");
         final PatientEntity _result;
         if (_stmt.step()) {
+          _result = new PatientEntity();
+          final long _tmpPatientId;
+          _tmpPatientId = _stmt.getLong(_columnIndexOfPatientId);
+          _result.setPatientId(_tmpPatientId);
           final String _tmpFullName;
           if (_stmt.isNull(_columnIndexOfFullName)) {
             _tmpFullName = null;
           } else {
             _tmpFullName = _stmt.getText(_columnIndexOfFullName);
           }
+          _result.setFullName(_tmpFullName);
           final Long _tmpDateOfBirth;
           if (_stmt.isNull(_columnIndexOfDateOfBirth)) {
             _tmpDateOfBirth = null;
           } else {
             _tmpDateOfBirth = _stmt.getLong(_columnIndexOfDateOfBirth);
           }
+          _result.setDateOfBirth(_tmpDateOfBirth);
           final String _tmpGender;
           if (_stmt.isNull(_columnIndexOfGender)) {
             _tmpGender = null;
           } else {
             _tmpGender = _stmt.getText(_columnIndexOfGender);
           }
+          _result.setGender(_tmpGender);
           final String _tmpBloodGroup;
           if (_stmt.isNull(_columnIndexOfBloodGroup)) {
             _tmpBloodGroup = null;
           } else {
             _tmpBloodGroup = _stmt.getText(_columnIndexOfBloodGroup);
           }
+          _result.setBloodGroup(_tmpBloodGroup);
           final String _tmpPhoneNumber;
           if (_stmt.isNull(_columnIndexOfPhoneNumber)) {
             _tmpPhoneNumber = null;
           } else {
             _tmpPhoneNumber = _stmt.getText(_columnIndexOfPhoneNumber);
           }
+          _result.setPhoneNumber(_tmpPhoneNumber);
           final String _tmpEmailAddress;
           if (_stmt.isNull(_columnIndexOfEmailAddress)) {
             _tmpEmailAddress = null;
           } else {
             _tmpEmailAddress = _stmt.getText(_columnIndexOfEmailAddress);
           }
+          _result.setEmailAddress(_tmpEmailAddress);
           final String _tmpAddress;
           if (_stmt.isNull(_columnIndexOfAddress)) {
             _tmpAddress = null;
           } else {
             _tmpAddress = _stmt.getText(_columnIndexOfAddress);
           }
+          _result.setAddress(_tmpAddress);
           final String _tmpEmergencyContactName;
           if (_stmt.isNull(_columnIndexOfEmergencyContactName)) {
             _tmpEmergencyContactName = null;
           } else {
             _tmpEmergencyContactName = _stmt.getText(_columnIndexOfEmergencyContactName);
           }
+          _result.setEmergencyContactName(_tmpEmergencyContactName);
           final String _tmpEmergencyContactPhone;
           if (_stmt.isNull(_columnIndexOfEmergencyContactPhone)) {
             _tmpEmergencyContactPhone = null;
           } else {
             _tmpEmergencyContactPhone = _stmt.getText(_columnIndexOfEmergencyContactPhone);
           }
+          _result.setEmergencyContactPhone(_tmpEmergencyContactPhone);
           final String _tmpAllergies;
           if (_stmt.isNull(_columnIndexOfAllergies)) {
             _tmpAllergies = null;
           } else {
             _tmpAllergies = _stmt.getText(_columnIndexOfAllergies);
           }
+          _result.setAllergies(_tmpAllergies);
           final String _tmpChronicConditions;
           if (_stmt.isNull(_columnIndexOfChronicConditions)) {
             _tmpChronicConditions = null;
           } else {
             _tmpChronicConditions = _stmt.getText(_columnIndexOfChronicConditions);
           }
+          _result.setChronicConditions(_tmpChronicConditions);
           final String _tmpNotes;
           if (_stmt.isNull(_columnIndexOfNotes)) {
             _tmpNotes = null;
           } else {
             _tmpNotes = _stmt.getText(_columnIndexOfNotes);
           }
+          _result.setNotes(_tmpNotes);
           final String _tmpProfileImageUri;
           if (_stmt.isNull(_columnIndexOfProfileImageUri)) {
             _tmpProfileImageUri = null;
           } else {
             _tmpProfileImageUri = _stmt.getText(_columnIndexOfProfileImageUri);
           }
+          _result.setProfileImageUri(_tmpProfileImageUri);
           final long _tmpCreatedAt;
           _tmpCreatedAt = _stmt.getLong(_columnIndexOfCreatedAt);
+          _result.setCreatedAt(_tmpCreatedAt);
           final long _tmpUpdatedAt;
           _tmpUpdatedAt = _stmt.getLong(_columnIndexOfUpdatedAt);
-          _result = new PatientEntity(_tmpFullName,_tmpDateOfBirth,_tmpGender,_tmpBloodGroup,_tmpPhoneNumber,_tmpEmailAddress,_tmpAddress,_tmpEmergencyContactName,_tmpEmergencyContactPhone,_tmpAllergies,_tmpChronicConditions,_tmpNotes,_tmpProfileImageUri,_tmpCreatedAt,_tmpUpdatedAt);
-          final long _tmpPatientId;
-          _tmpPatientId = _stmt.getLong(_columnIndexOfPatientId);
-          _result.setPatientId(_tmpPatientId);
+          _result.setUpdatedAt(_tmpUpdatedAt);
         } else {
           _result = null;
         }
@@ -500,92 +530,107 @@ public final class PatientDao_Impl implements PatientDao {
         final int _columnIndexOfUpdatedAt = SQLiteStatementUtil.getColumnIndexOrThrow(_stmt, "updated_at");
         final PatientEntity _result;
         if (_stmt.step()) {
+          _result = new PatientEntity();
+          final long _tmpPatientId;
+          _tmpPatientId = _stmt.getLong(_columnIndexOfPatientId);
+          _result.setPatientId(_tmpPatientId);
           final String _tmpFullName;
           if (_stmt.isNull(_columnIndexOfFullName)) {
             _tmpFullName = null;
           } else {
             _tmpFullName = _stmt.getText(_columnIndexOfFullName);
           }
+          _result.setFullName(_tmpFullName);
           final Long _tmpDateOfBirth;
           if (_stmt.isNull(_columnIndexOfDateOfBirth)) {
             _tmpDateOfBirth = null;
           } else {
             _tmpDateOfBirth = _stmt.getLong(_columnIndexOfDateOfBirth);
           }
+          _result.setDateOfBirth(_tmpDateOfBirth);
           final String _tmpGender;
           if (_stmt.isNull(_columnIndexOfGender)) {
             _tmpGender = null;
           } else {
             _tmpGender = _stmt.getText(_columnIndexOfGender);
           }
+          _result.setGender(_tmpGender);
           final String _tmpBloodGroup;
           if (_stmt.isNull(_columnIndexOfBloodGroup)) {
             _tmpBloodGroup = null;
           } else {
             _tmpBloodGroup = _stmt.getText(_columnIndexOfBloodGroup);
           }
+          _result.setBloodGroup(_tmpBloodGroup);
           final String _tmpPhoneNumber;
           if (_stmt.isNull(_columnIndexOfPhoneNumber)) {
             _tmpPhoneNumber = null;
           } else {
             _tmpPhoneNumber = _stmt.getText(_columnIndexOfPhoneNumber);
           }
+          _result.setPhoneNumber(_tmpPhoneNumber);
           final String _tmpEmailAddress;
           if (_stmt.isNull(_columnIndexOfEmailAddress)) {
             _tmpEmailAddress = null;
           } else {
             _tmpEmailAddress = _stmt.getText(_columnIndexOfEmailAddress);
           }
+          _result.setEmailAddress(_tmpEmailAddress);
           final String _tmpAddress;
           if (_stmt.isNull(_columnIndexOfAddress)) {
             _tmpAddress = null;
           } else {
             _tmpAddress = _stmt.getText(_columnIndexOfAddress);
           }
+          _result.setAddress(_tmpAddress);
           final String _tmpEmergencyContactName;
           if (_stmt.isNull(_columnIndexOfEmergencyContactName)) {
             _tmpEmergencyContactName = null;
           } else {
             _tmpEmergencyContactName = _stmt.getText(_columnIndexOfEmergencyContactName);
           }
+          _result.setEmergencyContactName(_tmpEmergencyContactName);
           final String _tmpEmergencyContactPhone;
           if (_stmt.isNull(_columnIndexOfEmergencyContactPhone)) {
             _tmpEmergencyContactPhone = null;
           } else {
             _tmpEmergencyContactPhone = _stmt.getText(_columnIndexOfEmergencyContactPhone);
           }
+          _result.setEmergencyContactPhone(_tmpEmergencyContactPhone);
           final String _tmpAllergies;
           if (_stmt.isNull(_columnIndexOfAllergies)) {
             _tmpAllergies = null;
           } else {
             _tmpAllergies = _stmt.getText(_columnIndexOfAllergies);
           }
+          _result.setAllergies(_tmpAllergies);
           final String _tmpChronicConditions;
           if (_stmt.isNull(_columnIndexOfChronicConditions)) {
             _tmpChronicConditions = null;
           } else {
             _tmpChronicConditions = _stmt.getText(_columnIndexOfChronicConditions);
           }
+          _result.setChronicConditions(_tmpChronicConditions);
           final String _tmpNotes;
           if (_stmt.isNull(_columnIndexOfNotes)) {
             _tmpNotes = null;
           } else {
             _tmpNotes = _stmt.getText(_columnIndexOfNotes);
           }
+          _result.setNotes(_tmpNotes);
           final String _tmpProfileImageUri;
           if (_stmt.isNull(_columnIndexOfProfileImageUri)) {
             _tmpProfileImageUri = null;
           } else {
             _tmpProfileImageUri = _stmt.getText(_columnIndexOfProfileImageUri);
           }
+          _result.setProfileImageUri(_tmpProfileImageUri);
           final long _tmpCreatedAt;
           _tmpCreatedAt = _stmt.getLong(_columnIndexOfCreatedAt);
+          _result.setCreatedAt(_tmpCreatedAt);
           final long _tmpUpdatedAt;
           _tmpUpdatedAt = _stmt.getLong(_columnIndexOfUpdatedAt);
-          _result = new PatientEntity(_tmpFullName,_tmpDateOfBirth,_tmpGender,_tmpBloodGroup,_tmpPhoneNumber,_tmpEmailAddress,_tmpAddress,_tmpEmergencyContactName,_tmpEmergencyContactPhone,_tmpAllergies,_tmpChronicConditions,_tmpNotes,_tmpProfileImageUri,_tmpCreatedAt,_tmpUpdatedAt);
-          final long _tmpPatientId;
-          _tmpPatientId = _stmt.getLong(_columnIndexOfPatientId);
-          _result.setPatientId(_tmpPatientId);
+          _result.setUpdatedAt(_tmpUpdatedAt);
         } else {
           _result = null;
         }
@@ -633,92 +678,107 @@ public final class PatientDao_Impl implements PatientDao {
         final List<PatientEntity> _result = new ArrayList<PatientEntity>();
         while (_stmt.step()) {
           final PatientEntity _item;
+          _item = new PatientEntity();
+          final long _tmpPatientId;
+          _tmpPatientId = _stmt.getLong(_columnIndexOfPatientId);
+          _item.setPatientId(_tmpPatientId);
           final String _tmpFullName;
           if (_stmt.isNull(_columnIndexOfFullName)) {
             _tmpFullName = null;
           } else {
             _tmpFullName = _stmt.getText(_columnIndexOfFullName);
           }
+          _item.setFullName(_tmpFullName);
           final Long _tmpDateOfBirth;
           if (_stmt.isNull(_columnIndexOfDateOfBirth)) {
             _tmpDateOfBirth = null;
           } else {
             _tmpDateOfBirth = _stmt.getLong(_columnIndexOfDateOfBirth);
           }
+          _item.setDateOfBirth(_tmpDateOfBirth);
           final String _tmpGender;
           if (_stmt.isNull(_columnIndexOfGender)) {
             _tmpGender = null;
           } else {
             _tmpGender = _stmt.getText(_columnIndexOfGender);
           }
+          _item.setGender(_tmpGender);
           final String _tmpBloodGroup;
           if (_stmt.isNull(_columnIndexOfBloodGroup)) {
             _tmpBloodGroup = null;
           } else {
             _tmpBloodGroup = _stmt.getText(_columnIndexOfBloodGroup);
           }
+          _item.setBloodGroup(_tmpBloodGroup);
           final String _tmpPhoneNumber;
           if (_stmt.isNull(_columnIndexOfPhoneNumber)) {
             _tmpPhoneNumber = null;
           } else {
             _tmpPhoneNumber = _stmt.getText(_columnIndexOfPhoneNumber);
           }
+          _item.setPhoneNumber(_tmpPhoneNumber);
           final String _tmpEmailAddress;
           if (_stmt.isNull(_columnIndexOfEmailAddress)) {
             _tmpEmailAddress = null;
           } else {
             _tmpEmailAddress = _stmt.getText(_columnIndexOfEmailAddress);
           }
+          _item.setEmailAddress(_tmpEmailAddress);
           final String _tmpAddress;
           if (_stmt.isNull(_columnIndexOfAddress)) {
             _tmpAddress = null;
           } else {
             _tmpAddress = _stmt.getText(_columnIndexOfAddress);
           }
+          _item.setAddress(_tmpAddress);
           final String _tmpEmergencyContactName;
           if (_stmt.isNull(_columnIndexOfEmergencyContactName)) {
             _tmpEmergencyContactName = null;
           } else {
             _tmpEmergencyContactName = _stmt.getText(_columnIndexOfEmergencyContactName);
           }
+          _item.setEmergencyContactName(_tmpEmergencyContactName);
           final String _tmpEmergencyContactPhone;
           if (_stmt.isNull(_columnIndexOfEmergencyContactPhone)) {
             _tmpEmergencyContactPhone = null;
           } else {
             _tmpEmergencyContactPhone = _stmt.getText(_columnIndexOfEmergencyContactPhone);
           }
+          _item.setEmergencyContactPhone(_tmpEmergencyContactPhone);
           final String _tmpAllergies;
           if (_stmt.isNull(_columnIndexOfAllergies)) {
             _tmpAllergies = null;
           } else {
             _tmpAllergies = _stmt.getText(_columnIndexOfAllergies);
           }
+          _item.setAllergies(_tmpAllergies);
           final String _tmpChronicConditions;
           if (_stmt.isNull(_columnIndexOfChronicConditions)) {
             _tmpChronicConditions = null;
           } else {
             _tmpChronicConditions = _stmt.getText(_columnIndexOfChronicConditions);
           }
+          _item.setChronicConditions(_tmpChronicConditions);
           final String _tmpNotes;
           if (_stmt.isNull(_columnIndexOfNotes)) {
             _tmpNotes = null;
           } else {
             _tmpNotes = _stmt.getText(_columnIndexOfNotes);
           }
+          _item.setNotes(_tmpNotes);
           final String _tmpProfileImageUri;
           if (_stmt.isNull(_columnIndexOfProfileImageUri)) {
             _tmpProfileImageUri = null;
           } else {
             _tmpProfileImageUri = _stmt.getText(_columnIndexOfProfileImageUri);
           }
+          _item.setProfileImageUri(_tmpProfileImageUri);
           final long _tmpCreatedAt;
           _tmpCreatedAt = _stmt.getLong(_columnIndexOfCreatedAt);
+          _item.setCreatedAt(_tmpCreatedAt);
           final long _tmpUpdatedAt;
           _tmpUpdatedAt = _stmt.getLong(_columnIndexOfUpdatedAt);
-          _item = new PatientEntity(_tmpFullName,_tmpDateOfBirth,_tmpGender,_tmpBloodGroup,_tmpPhoneNumber,_tmpEmailAddress,_tmpAddress,_tmpEmergencyContactName,_tmpEmergencyContactPhone,_tmpAllergies,_tmpChronicConditions,_tmpNotes,_tmpProfileImageUri,_tmpCreatedAt,_tmpUpdatedAt);
-          final long _tmpPatientId;
-          _tmpPatientId = _stmt.getLong(_columnIndexOfPatientId);
-          _item.setPatientId(_tmpPatientId);
+          _item.setUpdatedAt(_tmpUpdatedAt);
           _result.add(_item);
         }
         return _result;

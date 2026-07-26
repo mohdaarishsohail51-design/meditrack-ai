@@ -23,6 +23,7 @@
     <dimen name="spacing_small">8dp</dimen>
     <dimen name="text_size_subtitle">16sp</dimen>
     <dimen name="text_size_title">28sp</dimen>
+    <string name="add_patient">Add patient</string>
     <string name="app_name">MediTrack AI</string>
     <string name="assistant_card_description">Ask about records</string>
     <string name="dashboard_description">
@@ -32,7 +33,7 @@
     <string name="dashboard_title">Health Dashboard</string>
     <string name="feature_assistant">AI Assistant</string>
     <string name="feature_development_message">
-        %1$s is ready for its next development phase.
+        
     </string>
     <string name="feature_medicines">Medicines</string>
     <string name="feature_patients">Patients</string>
@@ -45,7 +46,12 @@
     </string>
     <string name="health_summary_title">Your health overview</string>
     <string name="medicines_card_description">Schedules and reminders</string>
+    <string name="no_patients_description">Add your first patient to begin organising medical records, medicines and health timelines.</string>
+    <string name="no_patients_title">No patients added yet</string>
+    <string name="patient_list_content_description">Saved patient profiles</string>
     <string name="patients_card_description">Manage profiles</string>
+    <string name="patients_subtitle">Manage patient profiles and medical histories</string>
+    <string name="patients_title">Patients</string>
     <string name="quick_actions_title">Quick actions</string>
     <string name="records_card_description">Reports and files</string>
     <string name="scan_card_description">Import with OCR</string>

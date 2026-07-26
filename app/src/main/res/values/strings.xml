@@ -38,9 +38,14 @@
     <string name="timeline_card_description">Track health changes</string>
     <string name="medicines_card_description">Schedules and reminders</string>
     <string name="assistant_card_description">Ask about records</string>
-
+    <string name="patients_title">Patients</string>
+<string name="patients_subtitle">Manage patient profiles and medical histories</string>
+<string name="no_patients_title">No patients added yet</string>
+<string name="no_patients_description">Add your first patient to begin organising medical records, medicines and health timelines.</string>
+<string name="add_patient">Add patient</string>
+<string name="patient_list_content_description">Saved patient profiles</string>
     <string name="feature_development_message">
-        %1$s is ready for its next development phase.
+        
     </string>
 
 </resources>

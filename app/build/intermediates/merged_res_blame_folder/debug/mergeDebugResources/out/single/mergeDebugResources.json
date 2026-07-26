@@ -1,10 +1,30 @@
 [
     {
-        "merged": "com.meditrack.ai.app-debug-33:/layout_activity_main.xml.flat",
-        "source": "com.meditrack.ai.app-main-35:/layout/activity_main.xml"
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.9/com.meditrack.ai.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.9/com.meditrack.ai.app-main-35:/layout/activity_main.xml"
     },
     {
-        "merged": "com.meditrack.ai.app-debug-33:/layout_activity_dashboard.xml.flat",
-        "source": "com.meditrack.ai.app-main-35:/layout/activity_dashboard.xml"
+        "merged": "com.meditrack.ai.app-debug-33:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.meditrack.ai.app-main-35:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "/data/data/com.termux/files/home/.gradle/daemon/8.9/com.meditrack.ai.app-debug-33:/layout_activity_dashboard.xml.flat",
+        "source": "/data/data/com.termux/files/home/.gradle/daemon/8.9/com.meditrack.ai.app-main-35:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.meditrack.ai.app-debug-33:/layout_activity_patient_list.xml.flat",
+        "source": "com.meditrack.ai.app-main-35:/layout/activity_patient_list.xml"
+    },
+    {
+        "merged": "com.meditrack.ai.app-debug-33:/layout_item_patient.xml.flat",
+        "source": "com.meditrack.ai.app-main-35:/layout/item_patient.xml"
+    },
+    {
+        "merged": "com.meditrack.ai.app-debug-33:/layout_activity_add_edit_patient.xml.flat",
+        "source": "com.meditrack.ai.app-main-35:/layout/activity_add_edit_patient.xml"
+    },
+    {
+        "merged": "com.meditrack.ai.app-debug-33:/drawable_ic_add.xml.flat",
+        "source": "com.meditrack.ai.app-main-35:/drawable/ic_add.xml"
     }
 ]
