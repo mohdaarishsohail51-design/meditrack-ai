@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediTrack AI</string>
+    <string name="welcome_title">Your medical history, organized securely</string>
+    <string name="welcome_subtitle">Store reports, track medicines, and view your health timeline offline.</string>
+</resources>

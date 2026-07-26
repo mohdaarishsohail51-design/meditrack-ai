@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F8FAFC</color>
+    <color name="background_dark">#0F172A</color>
+    <color name="black">#000000</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="error">#DC2626</color>
+    <color name="primary">#2563EB</color>
+    <color name="primary_dark">#1E40AF</color>
+    <color name="primary_light">#DBEAFE</color>
+    <color name="secondary">#14B8A6</color>
+    <color name="secondary_dark">#0F766E</color>
+    <color name="success">#16A34A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="warning">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="text_size_subtitle">16sp</dimen>
+    <dimen name="text_size_title">28sp</dimen>
+    <string name="app_name">MediTrack AI</string>
+    <string name="welcome_subtitle">Store reports, track medicines, and view your health timeline offline.</string>
+    <string name="welcome_title">Your medical history, organized securely</string>
+    <style name="Theme.MediTrackAI" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryContainer">@color/primary_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/primary_dark</item>
+
+        <item name="android:navigationBarColor">@color/background</item>
+
+    </style>
+    <style name="Widget.MediTrackAI.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">52dp</item>
+        <item name="cornerRadius">14dp</item>
+    </style>
+</resources>

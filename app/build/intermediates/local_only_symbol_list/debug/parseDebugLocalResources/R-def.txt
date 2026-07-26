@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color background
+color background_dark
+color black
+color divider
+color error
+color primary
+color primary_dark
+color primary_light
+color secondary
+color secondary_dark
+color success
+color surface
+color text_primary
+color text_secondary
+color warning
+color white
+dimen button_height
+dimen screen_padding
+dimen spacing_large
+dimen spacing_medium
+dimen spacing_small
+dimen text_size_subtitle
+dimen text_size_title
+id btnGetStarted
+id tvSubtitle
+id tvTitle
+layout activity_main
+string app_name
+string welcome_subtitle
+string welcome_title
+style Theme.MediTrackAI
+style Widget.MediTrackAI.Button
