@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.meditrack.ai.app-mergeDebugResources-29:/values-eu/values-eu.xml",
+            "outputFile": "com.meditrack.ai.app-mergeDebugResources-31:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/res/values-eu/values-eu.xml",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/res/values-eu/values-eu.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b9c6732e9686f31a9de388ec506b57b7/transformed/core-1.13.1/res/values-eu/values-eu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

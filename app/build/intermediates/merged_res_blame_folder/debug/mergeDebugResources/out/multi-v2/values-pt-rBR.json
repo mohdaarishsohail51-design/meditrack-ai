@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.meditrack.ai.app-mergeDebugResources-29:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.meditrack.ai.app-mergeDebugResources-31:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b9c6732e9686f31a9de388ec506b57b7/transformed/core-1.13.1/res/values-pt-rBR/values-pt-rBR.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

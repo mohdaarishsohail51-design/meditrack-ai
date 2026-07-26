@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.meditrack.ai.app-mergeDebugResources-29:/values-ta/values-ta.xml",
+            "outputFile": "com.meditrack.ai.app-mergeDebugResources-31:/values-ta/values-ta.xml",
             "map": [
+                {
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b9c6732e9686f31a9de388ec506b57b7/transformed/core-1.13.1/res/values-ta/values-ta.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,254,353,451,558,673,801",
+                        "endColumns": "95,102,98,97,106,114,127,100",
+                        "endOffsets": "146,249,348,446,553,668,796,897"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,116",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3543,3639,3742,3841,3939,4046,4161,10183",
+                        "endColumns": "95,102,98,97,106,114,127,100",
+                        "endOffsets": "3634,3737,3836,3934,4041,4156,4284,10279"
+                    }
+                },
                 {
                     "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/res/values-ta/values-ta.xml",
                     "from": {
@@ -37,23 +54,6 @@
                         "startOffsets": "322,435,537,652,741,852,973,1052,1128,1226,1326,1421,1515,1622,1722,1824,1918,2016,2114,2195,2303,2406,2505,2621,2724,2829,2986,9844",
                         "endColumns": "112,101,114,88,110,120,78,75,97,99,94,93,106,99,101,93,97,97,80,107,102,98,115,102,104,156,101,81",
                         "endOffsets": "430,532,647,736,847,968,1047,1123,1221,1321,1416,1510,1617,1717,1819,1913,2011,2109,2190,2298,2401,2500,2616,2719,2824,2981,3083,9921"
-                    }
-                },
-                {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/res/values-ta/values-ta.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,254,353,451,558,673,801",
-                        "endColumns": "95,102,98,97,106,114,127,100",
-                        "endOffsets": "146,249,348,446,553,668,796,897"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,116",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3543,3639,3742,3841,3939,4046,4161,10183",
-                        "endColumns": "95,102,98,97,106,114,127,100",
-                        "endOffsets": "3634,3737,3836,3934,4041,4156,4284,10279"
                     }
                 }
             ]

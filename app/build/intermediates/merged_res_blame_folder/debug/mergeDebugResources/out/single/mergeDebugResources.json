@@ -1,10 +1,10 @@
 [
     {
-        "merged": "com.meditrack.ai.app-debug-31:/layout_activity_dashboard.xml.flat",
-        "source": "com.meditrack.ai.app-main-33:/layout/activity_dashboard.xml"
+        "merged": "com.meditrack.ai.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.meditrack.ai.app-main-35:/layout/activity_main.xml"
     },
     {
-        "merged": "com.meditrack.ai.app-debug-31:/layout_activity_main.xml.flat",
-        "source": "com.meditrack.ai.app-main-33:/layout/activity_main.xml"
+        "merged": "com.meditrack.ai.app-debug-33:/layout_activity_dashboard.xml.flat",
+        "source": "com.meditrack.ai.app-main-35:/layout/activity_dashboard.xml"
     }
 ]
