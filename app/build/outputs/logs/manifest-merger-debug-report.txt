@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:1-25:12
-INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.material:material:1.12.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/9b9c21cb251143fcea903cf64337ec6f/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3f0a73612f9d5614edcf51b56dd401f3/transformed/jetified-appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/627ab02f84349a140189a480875418fd/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/0b5701b45cefc11dd7228e4e2fe91120/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.5.4] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/4b50fe5564999dba304c37e71048dba5/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/f28ef43b18d69687fdcd8c18846c9bdc/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
@@ -34,7 +35,6 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0] /data/data/com.termux/fil
 MERGED from [androidx.customview:customview:1.1.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/fcece24f102100391000226e3013a719/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.13.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/52849f75b5449c36399f371e9d37d576/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/f7fd7462403387de1a7022e7e5c99f9d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b9cddd0634a7503153c5b3ca0bd32837/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/8bbd28fde08b915ce37801ce2a136711/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -54,8 +54,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] /data/data/com.t
 	xmlns:android
 		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:4:5-23:19
-INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:4:5-23:19
+ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:4:5-27:19
+INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:4:5-27:19
 MERGED from [com.google.android.material:material:1.12.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/0c904728dc3a8d192cc0c0faeb598900/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/9b9c21cb251143fcea903cf64337ec6f/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
@@ -86,22 +86,28 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /data/data/
 		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:9:9-49
 	android:name
 		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:5:9-45
-activity#com.meditrack.ai.MainActivity
-ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:11:9-21:20
+activity#com.meditrack.ai.DashboardActivity
+ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:11:9-13:39
 	android:exported
-		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:13:13-36
+		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:12:13-41
+		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:12:13-46
+activity#com.meditrack.ai.MainActivity
+ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:15:9-25:20
+	android:exported
+		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:20:17-68
 	android:name
-		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:22:17-76
 	android:name
-		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /data/data/com.termux/files/home/Projects/meditrack-ai/app/src/main/AndroidManifest.xml
@@ -114,6 +120,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /data/data/com.termux
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/3f0a73612f9d5614edcf51b56dd401f3/transformed/jetified-appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/627ab02f84349a140189a480875418fd/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/627ab02f84349a140189a480875418fd/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/0b5701b45cefc11dd7228e4e2fe91120/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/0b5701b45cefc11dd7228e4e2fe91120/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.4] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/4b50fe5564999dba304c37e71048dba5/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
@@ -166,8 +174,6 @@ MERGED from [androidx.core:core:1.13.0] /data/data/com.termux/files/home/.gradle
 MERGED from [androidx.core:core:1.13.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b203f511e6f88234a93304f4ae9934a6/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/52849f75b5449c36399f371e9d37d576/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/52849f75b5449c36399f371e9d37d576/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/6686a20c7c8bc378b96eda11506c15cc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/f7fd7462403387de1a7022e7e5c99f9d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/f7fd7462403387de1a7022e7e5c99f9d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] /data/data/com.termux/files/home/.gradle/caches/8.9/transforms/b9cddd0634a7503153c5b3ca0bd32837/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41

@@ -24,6 +24,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MediTrackAI" >
         <activity
+            android:name="com.meditrack.ai.DashboardActivity"
+            android:exported="false" />
+        <activity
             android:name="com.meditrack.ai.MainActivity"
             android:exported="true" >
             <intent-filter>

@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">MediTrack AI</string>
+
     <string name="welcome_title">Your medical history, organized securely</string>
-    <string name="welcome_subtitle">Store reports, track medicines, and view your health timeline offline.</string>
+    <string name="welcome_subtitle">
+        Store reports, track medicines, understand health changes and keep your records available offline.
+    </string>
+
+    <string name="get_started">Get Started</string>
+
+    <string name="dashboard_greeting">YOUR PRIVATE HEALTH SPACE</string>
+    <string name="dashboard_title">Health Dashboard</string>
+
+    <string name="dashboard_description">
+        Keep medical records, medicines and important health information organized in one secure place.
+    </string>
+
+    <string name="health_summary_title">Your health overview</string>
+
+    <string name="health_summary_description">
+        Add your first patient profile and medical report to begin building a clear health timeline.
+    </string>
+
+    <string name="quick_actions_title">Quick actions</string>
+
+    <string name="feature_patients">Patients</string>
+    <string name="feature_records">Medical Records</string>
+    <string name="feature_scan_report">Scan Report</string>
+    <string name="feature_timeline">Timeline</string>
+    <string name="feature_medicines">Medicines</string>
+    <string name="feature_assistant">AI Assistant</string>
+
+    <string name="patients_card_description">Manage profiles</string>
+    <string name="records_card_description">Reports and files</string>
+    <string name="scan_card_description">Import with OCR</string>
+    <string name="timeline_card_description">Track health changes</string>
+    <string name="medicines_card_description">Schedules and reminders</string>
+    <string name="assistant_card_description">Ask about records</string>
+
+    <string name="feature_development_message">
+        %1$s is ready for its next development phase.
+    </string>
+
 </resources>
